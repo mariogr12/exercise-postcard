@@ -1,0 +1,63 @@
+body {
+	background: black;
+	font-family: "Comic Relief";
+}
+button {
+	font-family: "Comic Relief";
+	background-color: lightgrey;
+	border-radius: 5px;
+	border: 3px solid grey;
+	border-color: whitesmoke dimgrey dimgrey whitesmoke;
+	padding: 10px;
+}
+button:active {
+	border-color: dimgrey whitesmoke whitesmoke dimgrey;
+}
+button:hover {
+	background-color: darkgrey;
+}
+input {
+	font-family: "Comic Relief";
+	border: none;
+	border-bottom: 2px solid grey;
+}
+
+.postcard {
+	background-color: white;
+	width: 460px;
+	height: 320px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-header h1 {
+	padding: 10px;
+	width: 500px;
+	margin: 0%;
+}
+.postcard-header img {
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+.body-left,
+.body-right {
+	padding-inline: 10px;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+#segundo {
+	margin-bottom: 0%;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding-top: 25px;
+}
